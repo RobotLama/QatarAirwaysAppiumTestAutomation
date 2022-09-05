@@ -1,0 +1,32 @@
+# Book a Ticket
+* Find and tap element that has "//android.widget.LinearLayout[@content-desc='One-way']" xpath
+* "4" seconds waited
+* Find and tap element that has "rvmp_fragment_rtow_flight_selection_origin_holder" id
+* "4" seconds waited
+* Find and tap element that has "rvmp_fragment_ond_selection_filter_edittext" id
+* "4" seconds waited
+* Find element that has "rvmp_fragment_ond_selection_filter_edittext" id and check is it contains "Enter your point of departure" value
+* "4" seconds waited
+* Find element that has "rvmp_fragment_ond_selection_filter_edittext" id and send "Berlin" key
+* "4" seconds waited
+* Select first element from "//*[@resource-id = 'com.m.qr:id/rvmp_fragment_ond_selection_stations_list']/android.view.ViewGroup" xpath
+* "4" seconds waited
+* Find and tap element that has "rvmp_fragment_rtow_flight_selection_destination_holder" id
+* "4" seconds waited
+* Find and tap element that has "rvmp_fragment_ond_selection_filter_edittext" id
+* "4" seconds waited
+* Find element that has "rvmp_fragment_ond_selection_filter_edittext" id and check is it contains "Enter your destination" value
+* "4" seconds waited
+* Find element that has "rvmp_fragment_ond_selection_filter_edittext" id and send "Istanbul" key
+* "4" seconds waited
+* Select first element from "//*[@resource-id = 'com.m.qr:id/rvmp_fragment_ond_selection_stations_list']/android.view.ViewGroup" xpath
+* "4" seconds waited
+* Find and tap element that has "rvmp_fragment_rtow_flight_selection_departure_date_holder" id
+* "4" seconds waited
+* Find element that has "fragment_calendar_selected_trip_length_text_view" id and check is it contains "Select your travel date" value
+* "4" seconds waited
+* "7" days from today is selected as the day
+* "4" seconds waited
+* Find and tap element that has "fragment_calendar_confirm_button" id
+* "4" seconds waited
+* Find and tap element that has "rvmp_booking_search_flights_button" id

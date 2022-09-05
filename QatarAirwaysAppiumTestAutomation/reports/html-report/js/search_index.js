@@ -1,0 +1,1 @@
+var index = {"Tags":{},"Specs":{"Qatar Airways Flight Ticket Booking":["specs/example.html"]}};

@@ -1,0 +1,143 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 3499milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 3499"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 50950"}
+{"logLevel":"info","message":"Listening on port:50950"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.tapZeroIndex' and 'StepImplementation.tapZeroIndex'"}
+{"logLevel":"debug","message":"Found Select first element from {} xpath in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.assertElementById' and 'StepImplementation.assertElementById'"}
+{"logLevel":"debug","message":"Found Check the element that has {} id in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.tapElementById' and 'StepImplementation.tapElementById'"}
+{"logLevel":"debug","message":"Found Find and tap element that has {} id in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.assertElementWithTextById' and 'StepImplementation.assertElementWithTextById'"}
+{"logLevel":"debug","message":"Found Find element that has {} id and check is it contains {} value in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.assertFlightTime' and 'StepImplementation.assertFlightTime'"}
+{"logLevel":"debug","message":"Found Assert flight time from {} id in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.tapElementIfVisibleById' and 'StepImplementation.tapElementIfVisibleById'"}
+{"logLevel":"debug","message":"Found Wait {} seconds for the element that has {} id (Visible: Tap / Not visible: Skip) in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.getFlightTime' and 'StepImplementation.getFlightTime'"}
+{"logLevel":"debug","message":"Found Get flight time from {} xpath in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.tapElementByXpath' and 'StepImplementation.tapElementByXpath'"}
+{"logLevel":"debug","message":"Found Find and tap element that has {} xpath in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitBySeconds' and 'StepImplementation.waitBySeconds'"}
+{"logLevel":"debug","message":"Found {} seconds waited in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.sendKeysById' and 'StepImplementation.sendKeysById'"}
+{"logLevel":"debug","message":"Found Find element that has {} id and send {} key in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.tapRandom' and 'StepImplementation.tapRandom'"}
+{"logLevel":"debug","message":"Found Select a random element from {} xpath in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.getDayOfMonthPlus' and 'StepImplementation.getDayOfMonthPlus'"}
+{"logLevel":"debug","message":"Found {} days from today is selected as the day in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tFind and tap element that has {} xpath : public void tapElementByXpath(String xpath)"}
+{"logLevel":"debug","message":"\tFind and tap element that has {} id : public void tapElementById(String id)"}
+{"logLevel":"debug","message":"\tFind element that has {} id and send {} key : public void sendKeysById(String id, String text)"}
+{"logLevel":"debug","message":"\tFind element that has {} id and check is it contains {} value : public void assertElementWithTextById(String id, String text)"}
+{"logLevel":"debug","message":"\tAssert flight time from {} id : public void assertFlightTime(String id)"}
+{"logLevel":"debug","message":"\t{} seconds waited : public void waitBySeconds(ýnt seconds)"}
+{"logLevel":"debug","message":"\tSelect first element from {} xpath : public void tapZeroIndex(String xpath)"}
+{"logLevel":"debug","message":"\tSelect a random element from {} xpath : public void tapRandom(String xpath)"}
+{"logLevel":"debug","message":"\tCheck the element that has {} id : public void assertElementById(String id)"}
+{"logLevel":"debug","message":"\tWait {} seconds for the element that has {} id (Visible: Tap / Not visible: Skip) : public void tapElementIfVisibleById(ýnt seconds, String id)"}
+{"logLevel":"debug","message":"\t{} days from today is selected as the day : public void getDayOfMonthPlus(long plusDay)"}
+{"logLevel":"debug","message":"\tGet flight time from {} xpath : public void getFlightTime(String xpath)"}
+[32m2022-09-05 23:13:47,663 +03:00 INFO  AppiumDriver:42 beforeScenario - ---------- Android Test Started ----------
+[mEyl 05, 2022 11:14:11 ÖS io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} seconds waited' using 'class StepImplementation.waitBySeconds"}
+[32m2022-09-05 23:14:16,167 +03:00 INFO  AppiumDriver:29 waitBySeconds - 4000 seconds waited
+[m{"logLevel":"debug","message":"Executing 'Check the element that has {} id' using 'class StepImplementation.assertElementById"}
+{"logLevel":"debug","message":"Executing '{} seconds waited' using 'class StepImplementation.waitBySeconds"}
+[32m2022-09-05 23:14:18,425 +03:00 INFO  AppiumDriver:29 waitBySeconds - 2000 seconds waited
+[m{"logLevel":"debug","message":"Executing 'Wait {} seconds for the element that has {} id (Visible: Tap / Not visible: Skip)' using 'class StepImplementation.tapElementIfVisibleById"}
+[32m2022-09-05 23:14:22,457 +03:00 INFO  AppiumDriver:29 waitBySeconds - 4000 seconds waited
+[m[32m2022-09-05 23:14:22,526 +03:00 INFO  AppiumDriver:58 tapElementIfVisibleSkipById - Element that has skip_button is not visible
+[m{"logLevel":"debug","message":"Executing '{} seconds waited' using 'class StepImplementation.waitBySeconds"}
+[32m2022-09-05 23:14:24,541 +03:00 INFO  AppiumDriver:29 waitBySeconds - 2000 seconds waited
+[m{"logLevel":"debug","message":"Executing 'Wait {} seconds for the element that has {} id (Visible: Tap / Not visible: Skip)' using 'class StepImplementation.tapElementIfVisibleById"}
+[32m2022-09-05 23:14:28,558 +03:00 INFO  AppiumDriver:29 waitBySeconds - 4000 seconds waited
+[m[32m2022-09-05 23:14:28,585 +03:00 INFO  AppiumDriver:58 tapElementIfVisibleSkipById - Element that has onboarding_skip_button is not visible
+[m{"logLevel":"debug","message":"Executing '{} seconds waited' using 'class StepImplementation.waitBySeconds"}
+[32m2022-09-05 23:14:30,595 +03:00 INFO  AppiumDriver:29 waitBySeconds - 2000 seconds waited
+[m{"logLevel":"debug","message":"Executing 'Find and tap element that has {} id' using 'class StepImplementation.tapElementById"}
+[32m2022-09-05 23:14:30,813 +03:00 INFO  AppiumDriver:70 tapElementIfClickableById - Element that has push_consent_decline id tapped
+[m{"logLevel":"debug","message":"Executing '{} seconds waited' using 'class StepImplementation.waitBySeconds"}
+[32m2022-09-05 23:14:34,836 +03:00 INFO  AppiumDriver:29 waitBySeconds - 4000 seconds waited
+[m{"logLevel":"debug","message":"Executing 'Find and tap element that has {} id' using 'class StepImplementation.tapElementById"}
+[32m2022-09-05 23:14:38,503 +03:00 INFO  AppiumDriver:70 tapElementIfClickableById - Element that has nav_menu_book id tapped
+[m{"logLevel":"debug","message":"Executing '{} seconds waited' using 'class StepImplementation.waitBySeconds"}
+[32m2022-09-05 23:14:42,527 +03:00 INFO  AppiumDriver:29 waitBySeconds - 4000 seconds waited
+[m{"logLevel":"debug","message":"Executing 'Find and tap element that has {} xpath' using 'class StepImplementation.tapElementByXpath"}
+[32m2022-09-05 23:14:42,836 +03:00 INFO  AppiumDriver:81 tapElementIfClickableByXpath - Element that has //android.widget.LinearLayout[@content-desc='One-way'] xpath tapped
+[m{"logLevel":"debug","message":"Executing '{} seconds waited' using 'class StepImplementation.waitBySeconds"}
+[32m2022-09-05 23:14:46,864 +03:00 INFO  AppiumDriver:29 waitBySeconds - 4000 seconds waited
+[m{"logLevel":"debug","message":"Executing 'Find and tap element that has {} id' using 'class StepImplementation.tapElementById"}
+[32m2022-09-05 23:14:47,108 +03:00 INFO  AppiumDriver:70 tapElementIfClickableById - Element that has rvmp_fragment_rtow_flight_selection_origin_holder id tapped
+[m{"logLevel":"debug","message":"Executing '{} seconds waited' using 'class StepImplementation.waitBySeconds"}
+[32m2022-09-05 23:14:51,135 +03:00 INFO  AppiumDriver:29 waitBySeconds - 4000 seconds waited
+[m{"logLevel":"debug","message":"Executing 'Find and tap element that has {} id' using 'class StepImplementation.tapElementById"}
+[32m2022-09-05 23:14:51,844 +03:00 INFO  AppiumDriver:70 tapElementIfClickableById - Element that has rvmp_fragment_ond_selection_filter_edittext id tapped
+[m{"logLevel":"debug","message":"Executing '{} seconds waited' using 'class StepImplementation.waitBySeconds"}
+[32m2022-09-05 23:14:55,865 +03:00 INFO  AppiumDriver:29 waitBySeconds - 4000 seconds waited
+[m{"logLevel":"debug","message":"Executing 'Find element that has {} id and check is it contains {} value' using 'class StepImplementation.assertElementWithTextById"}
+Enter your point of departure
+{"logLevel":"debug","message":"Executing '{} seconds waited' using 'class StepImplementation.waitBySeconds"}
+[32m2022-09-05 23:15:00,021 +03:00 INFO  AppiumDriver:29 waitBySeconds - 4000 seconds waited
+[m{"logLevel":"debug","message":"Executing 'Find element that has {} id and send {} key' using 'class StepImplementation.sendKeysById"}
+[32m2022-09-05 23:15:00,377 +03:00 INFO  AppiumDriver:116 sendKeysById - Sent Berlin key to element that has rvmp_fragment_ond_selection_filter_edittext id
+[m{"logLevel":"debug","message":"Executing '{} seconds waited' using 'class StepImplementation.waitBySeconds"}
+[32m2022-09-05 23:15:04,406 +03:00 INFO  AppiumDriver:29 waitBySeconds - 4000 seconds waited
+[m{"logLevel":"debug","message":"Executing 'Select first element from {} xpath' using 'class StepImplementation.tapZeroIndex"}
+{"logLevel":"debug","message":"Executing '{} seconds waited' using 'class StepImplementation.waitBySeconds"}
+[32m2022-09-05 23:15:08,664 +03:00 INFO  AppiumDriver:29 waitBySeconds - 4000 seconds waited
+[m{"logLevel":"debug","message":"Executing 'Find and tap element that has {} id' using 'class StepImplementation.tapElementById"}
+[32m2022-09-05 23:15:08,869 +03:00 INFO  AppiumDriver:70 tapElementIfClickableById - Element that has rvmp_fragment_rtow_flight_selection_destination_holder id tapped
+[m{"logLevel":"debug","message":"Executing '{} seconds waited' using 'class StepImplementation.waitBySeconds"}
+[32m2022-09-05 23:15:12,885 +03:00 INFO  AppiumDriver:29 waitBySeconds - 4000 seconds waited
+[m{"logLevel":"debug","message":"Executing 'Find and tap element that has {} id' using 'class StepImplementation.tapElementById"}
+[32m2022-09-05 23:15:14,124 +03:00 INFO  AppiumDriver:70 tapElementIfClickableById - Element that has rvmp_fragment_ond_selection_filter_edittext id tapped
+[m{"logLevel":"debug","message":"Executing '{} seconds waited' using 'class StepImplementation.waitBySeconds"}
+[32m2022-09-05 23:15:18,136 +03:00 INFO  AppiumDriver:29 waitBySeconds - 4000 seconds waited
+[m{"logLevel":"debug","message":"Executing 'Find element that has {} id and check is it contains {} value' using 'class StepImplementation.assertElementWithTextById"}
+Enter your destination
+{"logLevel":"debug","message":"Executing '{} seconds waited' using 'class StepImplementation.waitBySeconds"}
+[32m2022-09-05 23:15:22,320 +03:00 INFO  AppiumDriver:29 waitBySeconds - 4000 seconds waited
+[m{"logLevel":"debug","message":"Executing 'Find element that has {} id and send {} key' using 'class StepImplementation.sendKeysById"}
+[32m2022-09-05 23:15:22,681 +03:00 INFO  AppiumDriver:116 sendKeysById - Sent Istanbul key to element that has rvmp_fragment_ond_selection_filter_edittext id
+[m{"logLevel":"debug","message":"Executing '{} seconds waited' using 'class StepImplementation.waitBySeconds"}
+[32m2022-09-05 23:15:26,709 +03:00 INFO  AppiumDriver:29 waitBySeconds - 4000 seconds waited
+[m{"logLevel":"debug","message":"Executing 'Select first element from {} xpath' using 'class StepImplementation.tapZeroIndex"}
+{"logLevel":"debug","message":"Executing '{} seconds waited' using 'class StepImplementation.waitBySeconds"}
+[32m2022-09-05 23:15:30,935 +03:00 INFO  AppiumDriver:29 waitBySeconds - 4000 seconds waited
+[m{"logLevel":"debug","message":"Executing 'Find and tap element that has {} id' using 'class StepImplementation.tapElementById"}
+[32m2022-09-05 23:15:31,067 +03:00 INFO  AppiumDriver:70 tapElementIfClickableById - Element that has rvmp_fragment_rtow_flight_selection_departure_date_holder id tapped
+[m{"logLevel":"debug","message":"Executing '{} seconds waited' using 'class StepImplementation.waitBySeconds"}
+[32m2022-09-05 23:15:35,079 +03:00 INFO  AppiumDriver:29 waitBySeconds - 4000 seconds waited
+[m{"logLevel":"debug","message":"Executing 'Find element that has {} id and check is it contains {} value' using 'class StepImplementation.assertElementWithTextById"}
+Select your travel date
+{"logLevel":"debug","message":"Executing '{} seconds waited' using 'class StepImplementation.waitBySeconds"}
+[32m2022-09-05 23:15:39,140 +03:00 INFO  AppiumDriver:29 waitBySeconds - 4000 seconds waited
+[m{"logLevel":"debug","message":"Executing '{} days from today is selected as the day' using 'class StepImplementation.getDayOfMonthPlus"}
+[32m2022-09-05 23:15:39,663 +03:00 INFO  AppiumDriver:81 tapElementIfClickableByXpath - Element that has //*[@resource-id = 'com.m.qr:id/rvmp_booking_calendar_day_text_view'][@text = "12"] xpath tapped
+[m{"logLevel":"debug","message":"Executing '{} seconds waited' using 'class StepImplementation.waitBySeconds"}
+[32m2022-09-05 23:15:43,713 +03:00 INFO  AppiumDriver:29 waitBySeconds - 4000 seconds waited
+[m{"logLevel":"debug","message":"Executing 'Find and tap element that has {} id' using 'class StepImplementation.tapElementById"}
+[32m2022-09-05 23:15:44,049 +03:00 INFO  AppiumDriver:70 tapElementIfClickableById - Element that has fragment_calendar_confirm_button id tapped
+[m{"logLevel":"debug","message":"Executing '{} seconds waited' using 'class StepImplementation.waitBySeconds"}
+[32m2022-09-05 23:15:48,083 +03:00 INFO  AppiumDriver:29 waitBySeconds - 4000 seconds waited
+[m{"logLevel":"debug","message":"Executing 'Find and tap element that has {} id' using 'class StepImplementation.tapElementById"}
+[32m2022-09-05 23:15:48,311 +03:00 INFO  AppiumDriver:70 tapElementIfClickableById - Element that has rvmp_booking_search_flights_button id tapped
+[m{"logLevel":"debug","message":"Executing '{} seconds waited' using 'class StepImplementation.waitBySeconds"}
+[32m2022-09-05 23:15:52,333 +03:00 INFO  AppiumDriver:29 waitBySeconds - 4000 seconds waited
+[m{"logLevel":"debug","message":"Executing 'Check the element that has {} id' using 'class StepImplementation.assertElementById"}
+[32m2022-09-05 23:15:53,690 +03:00 INFO  AppiumDriver:79 afterScenario - ---------- Driver Closed ----------
+[m{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

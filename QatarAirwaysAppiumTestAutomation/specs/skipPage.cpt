@@ -1,0 +1,7 @@
+# Skip Pages
+* Wait "4" seconds for the element that has "skip_button" id (Visible: Tap / Not visible: Skip)
+* "2" seconds waited
+* Wait "4" seconds for the element that has "onboarding_skip_button" id (Visible: Tap / Not visible: Skip)
+* "2" seconds waited
+* Find and tap element that has "push_consent_decline" id
+* "4" seconds waited
